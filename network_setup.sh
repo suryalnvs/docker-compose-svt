@@ -6,8 +6,8 @@ CLI_TIMEOUT="$3"
 
 : ${CLI_TIMEOUT:="10000"}
 
-COMPOSE_FILE=docker-compose-cli.yaml
-#COMPOSE_FILE=docker-compose-e2e.yaml
+#COMPOSE_FILE=docker-compose-cli.yaml
+COMPOSE_FILE=docker-compose-e2e.yaml
 
 function printHelp () {
 	echo "Usage: ./network_setup <up|down> <channel-name>"
